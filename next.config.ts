@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   basePath: "/turks-in-ai-forum",
   assetPrefix: "/turks-in-ai-forum/",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/turks-in-ai-forum",
+  },
 };
 
 export default nextConfig;

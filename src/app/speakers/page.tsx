@@ -16,6 +16,7 @@ const speakers: Speaker[] = [
 ];
 
 export default function SpeakersPage() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <div className="mb-6">
@@ -30,7 +31,7 @@ export default function SpeakersPage() {
             {s.image ? (
               <Image
                 className="mb-4 object-cover mx-auto"
-                src={`/speakers/${s.image}`}
+                src={`${basePath}/speakers/${s.image}`}
                 alt={`${s.name} headshot`}
                 width={192}
                 height={192}
