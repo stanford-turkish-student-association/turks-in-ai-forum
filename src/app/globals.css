@@ -1,11 +1,6 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #111827;
-  --brand: #8c1515; /* Stanford Cardinal */
-  --brand-accent: #b1040e;
-}
+/* Light mode variables removed - only dark mode */
 
 @theme inline {
   --color-background: var(--background);
@@ -14,11 +9,12 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #e5e7eb;
-  }
+/* Force dark mode - remove light mode media query */
+:root {
+  --background: #0a0a0a;
+  --foreground: #e5e7eb;
+  --brand: #8c1515; /* Stanford Cardinal */
+  --brand-accent: #b1040e;
 }
 
 body {
