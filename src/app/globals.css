@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --brand: #8c1515; /* Stanford Cardinal */
+  --brand-accent: #b1040e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #e5e7eb;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md px-5 py-2.5 font-medium shadow-sm;
+  background-color: var(--brand);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--brand-accent);
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4;
+}
+
+a {
+  @apply transition-colors;
+}
