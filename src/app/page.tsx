@@ -27,7 +27,7 @@ export default function Home() {
               <Link className="inline-flex items-center justify-center rounded-md px-5 py-2.5 border border-gray-300 dark:border-gray-600" href="/speakers">Speakers</Link>
               <Link className="inline-flex items-center justify-center rounded-md px-5 py-2.5 border border-gray-300 dark:border-gray-600" href="/agenda">Agenda</Link>
             </div>
-            <a className="btn-primary" style={{width: 'fit-content', minWidth: '200px'}} href="https://luma.com/55ato326" target="_blank" rel="noopener noreferrer">Register</a>
+            <a className="btn-primary w-[calc(theme(spacing.10)*2+theme(spacing.3)+theme(spacing.5)*4)]" href="https://luma.com/55ato326" target="_blank" rel="noopener noreferrer">Register</a>
           </div>
         </div>
       </section>
