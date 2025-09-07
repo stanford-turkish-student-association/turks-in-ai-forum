@@ -14,12 +14,12 @@ export default function Home() {
             Stanford Turks in AI Forum
           </h1>
           <div className="flex flex-col items-center gap-2 mb-6">
-            <div className="inline-flex items-center rounded-full border border-gray-300 dark:border-gray-700 px-4 py-1.5 font-mono tracking-widest text-gray-800 dark:text-gray-100 bg-white/60 dark:bg-white/5 backdrop-blur">
+            <div className="inline-flex items-center rounded-full border border-gray-300 dark:border-gray-700 px-4 py-1.5 font-mono tracking-widest text-white bg-white/60 dark:bg-white/5 backdrop-blur">
               11.15.2025
             </div>
-            <div className="text-sm sm:text-base text-gray-700 dark:text-gray-300">Stanford Campus</div>
+            <div className="text-sm sm:text-base text-white">Stanford Campus</div>
           </div>
-          <p className="mx-auto max-w-3xl text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-8">
+          <p className="mx-auto max-w-3xl text-base sm:text-lg text-white mb-8">
             The Stanford Turks in AI Forum will bring together researchers, entrepreneurs, and investors to empower the Turkish AI ecosystem. Organized by the <a className="underline underline-offset-4 font-normal" href="https://www.linkedin.com/company/stanford-turkish-student-association/about/" target="_blank" rel="noopener noreferrer">Stanford Turkish Student Association</a>, this landmark gathering will serve as a platform to elevate the ecosystem, foster collaboration, and highlight the success stories of Türkiye's AI community on the global stage. We would like to thank all supporters who helped bring this forum to life, especially <strong><a className="underline underline-offset-4" href="https://globalturksai.org/" target="_blank" rel="noopener noreferrer">Global Turks AI</a></strong>.
           </p>
           <div className="flex gap-3 justify-center">

@@ -30,11 +30,11 @@ export default function AgendaPage() {
                 <div className="text-sm text-[color:var(--brand)] font-medium">{item.time}</div>
                 <div className="font-medium">{item.title}</div>
                 {item.speaker ? (
-                  <div className="text-sm text-gray-600 dark:text-gray-300">{item.speaker}</div>
+                  <div className="text-sm text-white">{item.speaker}</div>
                 ) : null}
               </div>
               {item.location ? (
-                <div className="text-sm text-gray-600 dark:text-gray-300">{item.location}</div>
+                <div className="text-sm text-white">{item.location}</div>
               ) : null}
             </div>
           </li>

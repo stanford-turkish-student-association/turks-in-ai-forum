@@ -48,7 +48,7 @@ export default function RootLayout({
             {children}
           </div>
           <footer className="border-t border-gray-200 dark:border-gray-800">
-            <div className="mx-auto max-w-6xl px-4 py-6 text-sm text-gray-600 dark:text-gray-400 flex items-center justify-between">
+            <div className="mx-auto max-w-6xl px-4 py-6 text-sm text-white flex items-center justify-between">
               <div>© {new Date().getFullYear()} Stanford Turks in AI Forum</div>
               <div className="flex items-center gap-3">
                 <a className="hover:underline underline-offset-4" href="https://x.com/stanfordtsa/" aria-label="Twitter">Twitter</a>
