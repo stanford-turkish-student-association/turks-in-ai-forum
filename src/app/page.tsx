@@ -22,12 +22,10 @@ export default function Home() {
           <p className="mx-auto max-w-3xl text-base sm:text-lg text-white mb-8">
             <a className="underline underline-offset-4 font-normal" href="https://www.linkedin.com/company/stanford-turkish-student-association/about/" target="_blank" rel="noopener noreferrer">Stanford Turkish Student Association</a> invites you to the inaugural Stanford Turks in AI Forum, a landmark gathering that will bring together researchers, entrepreneurs, and investors to empower the Turkish AI ecosystem. This forum will serve as a platform to foster collaboration and highlight the success stories of Türkiye&apos;s AI community on the global stage. We extend our heartfelt thanks to <strong><a className="underline underline-offset-4" href="https://globalturksai.org/" target="_blank" rel="noopener noreferrer">Global Turks AI</a></strong> and to all the supporters who helped bring this event to life.
           </p>
-          <div className="flex flex-col items-center gap-3">
-            <div className="flex gap-3 justify-center" id="button-row">
-              <Link className="inline-flex items-center justify-center rounded-md px-5 py-2.5 border border-gray-300 dark:border-gray-600" href="/speakers">Speakers</Link>
-              <Link className="inline-flex items-center justify-center rounded-md px-5 py-2.5 border border-gray-300 dark:border-gray-600" href="/agenda">Agenda</Link>
-            </div>
-            <a className="btn-primary w-[calc(100%+0.75rem)] max-w-none" href="https://luma.com/55ato326" target="_blank" rel="noopener noreferrer">Register</a>
+          <div className="flex gap-3 justify-center">
+            <Link className="inline-flex items-center justify-center rounded-md px-5 py-2.5 border border-gray-300 dark:border-gray-600 flex-1 max-w-[140px]" href="/speakers">Speakers</Link>
+            <Link className="inline-flex items-center justify-center rounded-md px-5 py-2.5 border border-gray-300 dark:border-gray-600 flex-1 max-w-[140px]" href="/agenda">Agenda</Link>
+            <a className="btn-primary flex-1 max-w-[140px]" href="https://luma.com/55ato326" target="_blank" rel="noopener noreferrer">Register</a>
           </div>
         </div>
       </section>
