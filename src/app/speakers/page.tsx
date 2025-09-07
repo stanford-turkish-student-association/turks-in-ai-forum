@@ -11,8 +11,8 @@ export type Speaker = {
 };
 
 const speakers: Speaker[] = [
-  { name: "Eylul Kayin", title: "Speaker", affiliation: "", image: "eylul-kayin.jpeg", linkedin: "https://www.linkedin.com/in/eylulk" },
   { name: "Ilge Akkaya", title: "Speaker", affiliation: "", image: "ilge-akkaya.jpeg", linkedin: "https://www.linkedin.com/in/ilge-akkaya-311b4631/" },
+  { name: "Eylul Kayin", title: "Speaker", affiliation: "", image: "eylul-kayin.jpeg", linkedin: "https://www.linkedin.com/in/eylulk" },
 ];
 
 export default function SpeakersPage() {
