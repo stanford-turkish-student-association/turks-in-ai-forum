@@ -25,6 +25,7 @@ export default function Home() {
           <div className="flex gap-3 justify-center">
             <Link className="btn-primary" href="/speakers">Speakers</Link>
             <Link className="inline-flex items-center justify-center rounded-md px-5 py-2.5 border border-gray-300 dark:border-gray-600" href="/agenda">Agenda</Link>
+            <a className="inline-flex items-center justify-center rounded-lg px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold text-lg" href="https://luma.com/55ato326" target="_blank" rel="noopener noreferrer">Register</a>
           </div>
         </div>
       </section>
