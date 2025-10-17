@@ -17,7 +17,6 @@ const speakers: Speaker[] = [
     name: "Sercan Arık", 
     title: "Speaker", 
     affiliation: "", 
-    bio: "AI Research Scientist at Google - Pioneer in driving LLM R&D and adoption across enterprise sectors",
     image: "sercan-arik.jpeg", 
     linkedin: "https://www.linkedin.com/in/sercanarik/" 
   },
@@ -25,7 +24,6 @@ const speakers: Speaker[] = [
     name: "Beliz Gunel", 
     title: "Speaker", 
     affiliation: "", 
-    bio: "AI Research Scientist at Google DeepMind - Expert in frontier model post-training",
     image: "beliz-gunel.jpeg", 
     linkedin: "https://www.linkedin.com/in/beliz-gunel-7252bb78/" 
   },
@@ -33,7 +31,6 @@ const speakers: Speaker[] = [
     name: "Çağla Kaymaz", 
     title: "Speaker", 
     affiliation: "", 
-    bio: "Partner at Category Ventures - Investing in enterprise AI",
     image: "cagla-kaymaz.jpeg", 
     linkedin: "https://www.linkedin.com/in/caglakaymaz/" 
   },
@@ -41,7 +38,6 @@ const speakers: Speaker[] = [
     name: "Alper Tekin", 
     title: "Speaker", 
     affiliation: "", 
-    bio: "Chief Business Officer at You.com - Leading business strategy and growth initiatives",
     image: "alper-tekin.jpeg", 
     linkedin: "https://www.linkedin.com/in/alp/" 
   },
@@ -49,7 +45,6 @@ const speakers: Speaker[] = [
     name: "Gülin Yilmaz", 
     title: "Speaker", 
     affiliation: "", 
-    bio: "Co-founder and CEO at Rosette Health - Building innovative healthcare solutions",
     image: "gulin-yilmaz.jpeg", 
     linkedin: "https://www.linkedin.com/in/isilgulinyilmaz/" 
   },
@@ -57,7 +52,6 @@ const speakers: Speaker[] = [
     name: "Yusuf Ozuysal", 
     title: "Speaker", 
     affiliation: "", 
-    bio: "Founder of Gr33n.ai - Pioneering sustainable AI solutions",
     image: "yusuf-ozuysal.jpeg", 
     linkedin: "https://www.linkedin.com/in/yusufo/" 
   },
