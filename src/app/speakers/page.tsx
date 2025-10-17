@@ -11,46 +11,46 @@ export type Speaker = {
 };
 
 const speakers: Speaker[] = [
-  { name: "Ilge Akkaya", title: "Speaker", affiliation: "", image: "ilge-akkaya.jpeg", linkedin: "https://www.linkedin.com/in/ilge-akkaya-311b4631/" },
-  { name: "Eylul Kayin", title: "Speaker", affiliation: "", image: "eylul-kayin.jpeg", linkedin: "https://www.linkedin.com/in/eylulk" },
+  { name: "Ilge Akkaya", title: "", affiliation: "", image: "ilge-akkaya.jpeg", linkedin: "https://www.linkedin.com/in/ilge-akkaya-311b4631/" },
+  { name: "Eylul Kayin", title: "", affiliation: "", image: "eylul-kayin.jpeg", linkedin: "https://www.linkedin.com/in/eylulk" },
   { 
     name: "Sercan Arık", 
-    title: "Speaker", 
+    title: "", 
     affiliation: "", 
     image: "sercan-arik.jpeg", 
     linkedin: "https://www.linkedin.com/in/sercanarik/" 
   },
   { 
     name: "Beliz Gunel", 
-    title: "Speaker", 
+    title: "", 
     affiliation: "", 
     image: "beliz-gunel.jpeg", 
     linkedin: "https://www.linkedin.com/in/beliz-gunel-7252bb78/" 
   },
   { 
     name: "Çağla Kaymaz", 
-    title: "Speaker", 
+    title: "", 
     affiliation: "", 
     image: "cagla-kaymaz.jpeg", 
     linkedin: "https://www.linkedin.com/in/caglakaymaz/" 
   },
   { 
     name: "Alper Tekin", 
-    title: "Speaker", 
+    title: "", 
     affiliation: "", 
     image: "alper-tekin.jpeg", 
     linkedin: "https://www.linkedin.com/in/alp/" 
   },
   { 
     name: "Gülin Yilmaz", 
-    title: "Speaker", 
+    title: "", 
     affiliation: "", 
     image: "gulin-yilmaz.jpeg", 
     linkedin: "https://www.linkedin.com/in/isilgulinyilmaz/" 
   },
   { 
     name: "Yusuf Ozuysal", 
-    title: "Speaker", 
+    title: "", 
     affiliation: "", 
     image: "yusuf-ozuysal.jpeg", 
     linkedin: "https://www.linkedin.com/in/yusufo/" 
