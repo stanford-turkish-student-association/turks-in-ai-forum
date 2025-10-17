@@ -15,49 +15,49 @@ const speakers: Speaker[] = [
   { name: "Eylul Kayin", title: "Speaker", affiliation: "", image: "eylul-kayin.jpeg", linkedin: "https://www.linkedin.com/in/eylulk" },
   { 
     name: "Sercan Arık", 
-    title: "AI Research Scientist", 
-    affiliation: "Google", 
-    bio: "Pioneer in driving LLM R&D and adoption across enterprise sectors",
+    title: "Speaker", 
+    affiliation: "", 
+    bio: "AI Research Scientist at Google - Pioneer in driving LLM R&D and adoption across enterprise sectors",
     image: "sercan-arik.jpeg", 
     linkedin: "https://www.linkedin.com/in/sercanarik/" 
   },
   { 
     name: "Beliz Gunel", 
-    title: "AI Research Scientist", 
-    affiliation: "Google DeepMind", 
-    bio: "Expert in frontier model post-training",
+    title: "Speaker", 
+    affiliation: "", 
+    bio: "AI Research Scientist at Google DeepMind - Expert in frontier model post-training",
     image: "beliz-gunel.jpeg", 
     linkedin: "https://www.linkedin.com/in/beliz-gunel-7252bb78/" 
   },
   { 
     name: "Çağla Kaymaz", 
-    title: "Partner", 
-    affiliation: "Category Ventures", 
-    bio: "Investing in enterprise AI",
+    title: "Speaker", 
+    affiliation: "", 
+    bio: "Partner at Category Ventures - Investing in enterprise AI",
     image: "cagla-kaymaz.jpeg", 
     linkedin: "https://www.linkedin.com/in/caglakaymaz/" 
   },
   { 
     name: "Alper Tekin", 
-    title: "Chief Business Officer", 
-    affiliation: "You.com", 
-    bio: "Leading business strategy and growth initiatives",
+    title: "Speaker", 
+    affiliation: "", 
+    bio: "Chief Business Officer at You.com - Leading business strategy and growth initiatives",
     image: "alper-tekin.jpeg", 
     linkedin: "https://www.linkedin.com/in/alp/" 
   },
   { 
     name: "Gülin Yilmaz", 
-    title: "Co-founder and CEO", 
-    affiliation: "Rosette Health", 
-    bio: "Building innovative healthcare solutions",
+    title: "Speaker", 
+    affiliation: "", 
+    bio: "Co-founder and CEO at Rosette Health - Building innovative healthcare solutions",
     image: "gulin-yilmaz.jpeg", 
     linkedin: "https://www.linkedin.com/in/isilgulinyilmaz/" 
   },
   { 
     name: "Yusuf Ozuysal", 
-    title: "Founder", 
-    affiliation: "Gr33n.ai", 
-    bio: "Pioneering sustainable AI solutions",
+    title: "Speaker", 
+    affiliation: "", 
+    bio: "Founder of Gr33n.ai - Pioneering sustainable AI solutions",
     image: "yusuf-ozuysal.jpeg", 
     linkedin: "https://www.linkedin.com/in/yusufo/" 
   },
